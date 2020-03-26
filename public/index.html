@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chevée en Quarantaine</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+  <nav>
+    <button type="button" name="button">Elections</button>
+    <button type="button" name="button">Perche</button>
+    <button type="button" name="button">Beauce</button>
+    <button type="button" name="button">212</button>
+  </nav>
+</header>
+<main>
+  <div class="search">
+    <!--<form action="/search_zip_code.php">-->
+      <label for="zipcode">Code postal:</label>
+      <input type="number" id="zipcode" name="zipcode"><br><br>
+      <!--<input type="submit" value="Chercher">-->
+      <button onclick="search_zip_code()">Chercher</button>
+    <!--</form>-->
+  </div>
+  <div class="card">
+    <h2>Ville</h2><h2 id="city_name"></h2>
+    <h3>Résultat</h3><h3 id="city_candidate"></h3>
+    <div class="commentaire">
+      <p>Commentaire:</p>
+      <p id="city_message"></p>
+    </div>
+
+  </div>
+</main>
+</body>
+<script src="jquery.min.js"></script>
+<script src="cities.js"></script>
+</html>

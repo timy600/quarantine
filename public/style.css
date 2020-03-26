@@ -1,0 +1,41 @@
+.bl-main > section:first-child {
+	top: 0;
+	left: 0;
+	background: #F06060;
+}
+
+.bl-main > section:nth-child(2) {
+	top: 0;
+	left: 20%;
+	background: #FA987D;
+}
+
+.bl-main > section:nth-child(3) {
+	top: 0;
+	left: 40%;
+	background: #72CCA7;
+}
+
+.bl-main > section:nth-child(4) {
+	top: 0%;
+	left: 60%;
+	background: #10A296;
+}
+
+.bl-main > section:nth-child(5) {
+	top: 0%;
+	left: 80%;
+	background: #44afed;
+}
+
+.bl-main > section:nth-child(6) {
+	top: 0%;
+	left: 100%;
+	background: #10A296;
+}
+
+.bl-main > section:nth-child(7) {
+	top: 0%;
+	left: 120%;
+	background: #10A296;
+}

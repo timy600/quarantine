@@ -5,9 +5,12 @@ from callbacks import update_figure
 
 import pandas as pd
 
+""" DATA """
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv')
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+
+""" DASH APP """
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 

@@ -10,8 +10,6 @@ df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapmi
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-""" DASH APP """
-
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 app.layout = html.Div([

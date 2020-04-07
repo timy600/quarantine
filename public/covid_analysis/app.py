@@ -43,7 +43,7 @@ def update_figure(selected_year):
             opacity=0.7,
             marker={
                 'size': 15,
-                'line': {'width': 0.5, 'color': 'white'}
+                'line': {'width': 0.5, 'color': 'blue'}
             },
             name=i
         ))

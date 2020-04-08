@@ -6,7 +6,11 @@ from dash.dependencies import Input, Output
 
 import pandas as pd
 
-""" DATA """
+""" DATA
+https://medium.com/@benjamin_libor/a-curated-collection-of-over-150-apis-to-build-great-products-fdcfa0f361bc
+https://pro.europeana.eu/pages/get-api
+
+"""
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv')
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']

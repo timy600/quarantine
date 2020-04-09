@@ -10,6 +10,14 @@ import pandas as pd
 https://medium.com/@benjamin_libor/a-curated-collection-of-over-150-apis-to-build-great-products-fdcfa0f361bc
 https://pro.europeana.eu/pages/get-api
 
+
+API for Stock data.
+Create threshold
+Determine values to follow
+Create server with elasticsearch?
+send mail if problem
+use a Facebook bot?
+
 """
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv')
 

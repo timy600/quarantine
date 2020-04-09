@@ -18,6 +18,13 @@ Create server with elasticsearch?
 send mail if problem
 use a Facebook bot?
 
+For Euronext data website:
+https://www.quandl.com/data/EURONEXT-Euronext-Stock-Exchange/usage/quickstart/api
+The API:
+This call retrieves Apr 8, 2020 data for EURONEXT/ADYEN
+https://www.quandl.com/api/v3/datasets/EURONEXT/ADYEN?start_date=2020-04-08&end_date=2020-04-08&api_key=YOUR_API_KEY
+
+
 """
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv')
 

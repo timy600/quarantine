@@ -25,6 +25,11 @@ This call retrieves Apr 8, 2020 data for EURONEXT/ADYEN
 https://www.quandl.com/api/v3/datasets/EURONEXT/ADYEN?start_date=2020-04-08&end_date=2020-04-08&api_key=YOUR_API_KEY
 
 
+
+Retrieve two columns
+This call retrieves the Date and Open columns for EURONEXT/ADYEN.
+
+https://www.quandl.com/api/v3/datasets/EURONEXT/ADYEN?column_index=1&api_key=YOUR_API_KEY
 """
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv')
 

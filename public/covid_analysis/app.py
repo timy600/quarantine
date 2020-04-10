@@ -24,7 +24,7 @@ The API:
 This call retrieves Apr 8, 2020 data for EURONEXT/ADYEN
 https://www.quandl.com/api/v3/datasets/EURONEXT/ADYEN?start_date=2020-04-08&end_date=2020-04-08&api_key=YOUR_API_KEY
 
-
+df.update(self, other, join='left', overwrite=True, filter_func=None, errors='ignore')
 
 Retrieve two columns
 This call retrieves the Date and Open columns for EURONEXT/ADYEN.

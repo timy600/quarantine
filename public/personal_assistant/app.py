@@ -5,12 +5,12 @@ import webbrowser
 
 window = Tk()
 window.wm_title("Alfred, your assistant")
-
+messagebox.showinfo("Presentation","Hi, I'm Jarvis your personal thought processing assistant")
 """Value Entry"""
-l1 = Label(window, text ="Lien Youtube", width = 16)
+l1 = Label(window, text ="Hi, I'm Jarvis your personal thought processing assistant", width = 30)
 l1.grid(row = 0, column = 1)
 
-l2 = Label(window, text ="Titre Youtube", width = 16)
+l2 = Label(window, text ="Please start thinking about something and press this button", width = 16)
 l2.grid(row = 1, column = 1)
 
 link_text = StringVar()

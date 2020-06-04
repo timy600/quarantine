@@ -5,14 +5,17 @@ from random import randint
 
 count_list = 0
 url_list = []
-url_list.append({'url': "youtube.com", 'message': "woaw, ok, why not..."})
-url_list.append({'url': "lemonde.fr", 'message': "lemonde"})
-url_list.append({'url': "elpais.com", 'message': "elp pais"})
+url_list.append({'url': "wired.com", 'message': "Oh, Wired, sure, that could be interesting"})
+url_list.append({'url': "elpais.com", 'message': "Ha, you want to practice your spanish, ok"})
+url_list.append({'url': "https://fivethirtyeight.com/politics/", 'message': "Oh, the latest updated on the american campaign? Sure, let's ask Nate Silver"})
 
 url_list_random = []
-url_list_random.append({'url': "wired.com", 'message': "test"})
-url_list_random.append({'url': "elpais.com", 'message': "test2"})
-url_list_random.append({'url': "google.com", 'message': "test3"})
+url_list_random.append({'url': "wired.com", 'message': "Oh, Wired, sure, that could be interesting"})
+url_list_random.append({'url': "elpais.com", 'message': "Ha, you want to practice your spanish, ok"})
+url_list_random.append({'url': "https://fivethirtyeight.com/politics/", 'message': "Oh, the latest updated on the american campaign? Sure, let's ask Nate Silver"})
+url_list_random.append({'url': "https://www.reddit.com/r/StarWarsLeaks/", 'message': "hum, ok, more Star Wars"})
+url_list_random.append({'url': "http://chevee-en-quarantaine.ga/", 'message': "I don't think Chevee worked on it recently"})
+url_list_random.append({'url': "lemonde.fr", 'message': "Here it is, the latest about the Coronavirus"})
 # open the GUI
 
 window = Tk()
